@@ -112,6 +112,7 @@ a,
 
 .site-title a {
     float: right;
+    color: rgba(255, 255, 255, 0);
 }
 
 .nav-cs-icon {

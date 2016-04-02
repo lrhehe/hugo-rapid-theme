@@ -1,10 +1,19 @@
 # hugo-rapid-theme
 
-Demo: [http://blog.coderzh.com/](http://blog.coderzh.com/)
+fork from [http://blog.coderzh.com/](http://blog.coderzh.com/) 
+
+some changes：
+
+1. show two columns for all pages, fix a related bug
+2. show ditail when show post list items, at most show 10 items
+3. enlarge author avatar
+4. config twitter，github，weibo account in config.yaml​
+
+Demo: [http://blog.lrhehe.com/](http://blog.lrhehe.com/)
 
 ## Step1 Install Hugo
 
-Set [Hugo Install](http://www.gohugo.org/doc/overview/installing/)
+See [Hugo Install](http://www.gohugo.org/doc/overview/installing/)
 
 ## Step2 Create your site
 
@@ -16,7 +25,7 @@ cd your-blog-name
 ## Step3 Clone the theme repo
 
 ```
-git clone https://github.com/coderzh/hugo-rapid-theme.git themes/hugo-rapid-theme
+git clone https://github.com/lrhehe/hugo-rapid-theme.git themes/hugo-rapid-theme
 
 # replace config file
 rm config.toml
@@ -42,5 +51,5 @@ You can also make this repo as submodule:
 
 ```
 git init
-git submodule add https://github.com/coderzh/hugo-rapid-theme.git themes/hugo-rapid-theme
-``` 
+git submodule add https://github.com/lrhehe/hugo-rapid-theme.git themes/hugo-rapid-theme
+```

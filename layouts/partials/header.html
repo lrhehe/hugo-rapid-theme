@@ -5,17 +5,12 @@
     <div class="nav-text"><!-- put your mobile menu text here --></div>
     <div class="nav-wrap container">
       <a rel="nofollow" href="{{ .Site.BaseURL }}/" class="nav-cs-icon">
-        <img width="40" height="40" src="/public/coderzh.jpg" alt="coderzh" title="Home">
+        <img width="40" height="40" src="/public/author.jpg" alt="{{.Site.Author.Name}}" title="Home">
       </a>
       <ul id="menu-default-menu" class="nav container-inner group">
         <li class="menu-item menu-item-type-post_type menu-item-object-page">
           <a rel="nofollow" href="/">首页</a>
         </li>
-        {{ range .Site.Params.Categories }}
-        <li class="menu-item menu-item-type-post_type menu-item-object-page">
-          <a rel="nofollow" href="/categories/{{ . | urlize }}/">{{ . }}</a>
-        </li>
-        {{ end }}
         {{ range .Site.Menus.main }}
         <li class="menu-item menu-item-type-post_type menu-item-object-page">
           <a rel="nofollow" href="{{ .URL }}">{{ .Name}}</a>
@@ -54,17 +49,11 @@
     <div class="container-inner">
 
       <div class="group pad">
-
         <div class="group pad">
-          <h1 class="site-title">
-            <a rel="nofollow" href="{{ .Site.BaseURL }}/" rel="home">
-              <img style="border-radius: 50%;width:72px;height:72px;margin:0 auto;" alt="coderzh" src="/public/coderzh.jpg"></img>
-              {{ .Site.Title }}
-            </a>
+          <h1 class="site-title" style="color:rgb(255,255,255)">
+             {{ .Site.Title }}
           </h1>
-          <p class="site-description"> {{ .Site.Params.Description }} </p>
         </div>
-
       </div>
     </div>
     <!--/.container-inner-->

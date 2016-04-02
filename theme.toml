@@ -3,9 +3,9 @@
 
 name = "rapid"
 license = "MIT"
-licenselink = "https://github.com/coderzh/hugo-theme-rapid/blob/master/LICENSE.md"
+licenselink = "https://github.com/lrhehe/hugo-rapid-theme/blob/master/LICENSE.md"
 description = ""
-homepage = "http://blog.coderzh.com/"
+homepage = "http://blog.lrhehe.com/"
 tags = ["", ""]
 features = ["", ""]
 min_version = 0.14
